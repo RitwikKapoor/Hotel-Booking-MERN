@@ -10,6 +10,7 @@ import {
 import "react-accessible-accordion/dist/fancy-example.css";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 import "./Value.css";
+import data from "../../utils/accordion";
 import value from "../../assets/value.png"
 
 const Value = () => {

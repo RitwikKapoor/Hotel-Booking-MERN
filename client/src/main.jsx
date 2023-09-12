@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       domain={import.meta.env.VITE_APP_DOMAIN_NAME}
       clientId={import.meta.env.VITE_APP_CLIENT_ID}
       authorizationParams={{
-        redirect_uri: import.meta.env.VITE_APP_FRONTEND_URL,
+        redirect_uri: window.location.origin,
         audience: import.meta.env.VITE_APP_AUDIENCE
       }}
       scope="openid profile email"

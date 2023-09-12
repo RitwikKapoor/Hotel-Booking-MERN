@@ -14,7 +14,7 @@ const BasicDetails = ({ prevStep, nextStep, propertyDetails, setPropertyDetails 
       title: (value) => validateString(value),
       description: (value) => validateString(value),
       price: (value) =>
-          value < 0 ? "Must be greater than 0 dollars" : null,
+          value <= 50 ? "Must be greater than 50 dollars" : null,
     },
   });
 
